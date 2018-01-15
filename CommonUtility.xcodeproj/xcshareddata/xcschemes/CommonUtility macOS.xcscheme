@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "63EC458C200BF793001C1CDB"
-               BuildableName = "CommonUtility_iOS.framework"
-               BlueprintName = "CommonUtility iOS"
+               BlueprintIdentifier = "631974EA200CFE500090B765"
+               BuildableName = "CommonUtility.framework"
+               BlueprintName = "CommonUtility macOS"
                ReferencedContainer = "container:CommonUtility.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63EC458C200BF793001C1CDB"
-            BuildableName = "CommonUtility_iOS.framework"
-            BlueprintName = "CommonUtility iOS"
+            BlueprintIdentifier = "631974EA200CFE500090B765"
+            BuildableName = "CommonUtility.framework"
+            BlueprintName = "CommonUtility macOS"
             ReferencedContainer = "container:CommonUtility.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "63EC458C200BF793001C1CDB"
-            BuildableName = "CommonUtility_iOS.framework"
-            BlueprintName = "CommonUtility iOS"
+            BlueprintIdentifier = "631974EA200CFE500090B765"
+            BuildableName = "CommonUtility.framework"
+            BlueprintName = "CommonUtility macOS"
             ReferencedContainer = "container:CommonUtility.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
