@@ -64,4 +64,23 @@ class CommonUtilityTests: XCTestCase {
         let hash160 = HashingAlgorithms.hash160(of: data)
         XCTAssertEqual(hash.hexEncodedString(), hash160.hexEncodedString())
     }
+
+    func testBase58Encoding() {
+        let a = "1381638142736adbecdaefcdabefbd"
+        let data = Data(hexEncoded: a)!
+        let base58String = data.base58EncodedString()
+        XCTAssertEqual(base58String, "YejtUKhLGsc1wFVuc99N")
+        let base58Data = Data(base58Encoded: base58String)
+        XCTAssertEqual(base58Data!.hexEncodedString(), a)
+    }
+
+    func testBase58Encoding1() {
+        let a = "12345678"
+        let data = Data(hexEncoded: a)!
+        let base58String = data.base58EncodedString()
+        XCTAssertEqual(base58String, "TzMhH")
+        let base58Data = Data(base58Encoded: base58String)
+        XCTAssertEqual(base58Data!.hexEncodedString(), a)
+    }
+
 }

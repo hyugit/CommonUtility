@@ -23,6 +23,10 @@
 		6319750B200D04EC0090B765 /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 63EC459D200BF7F2001C1CDB /* rmd160.c */; };
 		6319750C200D04F00090B765 /* HashingAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC459C200BF7F2001C1CDB /* HashingAlgorithms.swift */; };
 		6319750D200D04F30090B765 /* Data+HexEncodedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC459F200BF7F2001C1CDB /* Data+HexEncodedString.swift */; };
+		633332BC2021454200E3A474 /* Data+Base58Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633332BB2021454200E3A474 /* Data+Base58Encoding.swift */; };
+		633332BD2021454200E3A474 /* Data+Base58Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633332BB2021454200E3A474 /* Data+Base58Encoding.swift */; };
+		63CA4A0B202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA4A0A202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift */; };
+		63CA4A0C202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA4A0A202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,8 @@
 		6304DBFE201EBFCB0052AB7C /* CommonUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631974EB200CFE500090B765 /* CommonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		631974FF200D04A40090B765 /* CommonUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633332BB2021454200E3A474 /* Data+Base58Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Base58Encoding.swift"; sourceTree = "<group>"; };
+		63CA4A0A202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FixedWidthInteger+LongDivision.swift"; sourceTree = "<group>"; };
 		63EC4590200BF794001C1CDB /* CommonUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
 		63EC4598200BF7F2001C1CDB /* CCSha256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSha256.m; sourceTree = "<group>"; };
 		63EC459B200BF7F2001C1CDB /* CCSha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSha256.h; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 		63EC458F200BF793001C1CDB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				63CA4A0A202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift */,
 				63EC45B7200BF9BA001C1CDB /* Info.plist */,
 				63EC4590200BF794001C1CDB /* CommonUtility.h */,
 				63EC459B200BF7F2001C1CDB /* CCSha256.h */,
@@ -106,6 +113,7 @@
 				63EC459D200BF7F2001C1CDB /* rmd160.c */,
 				63EC459C200BF7F2001C1CDB /* HashingAlgorithms.swift */,
 				63EC459F200BF7F2001C1CDB /* Data+HexEncodedString.swift */,
+				633332BB2021454200E3A474 /* Data+Base58Encoding.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -279,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				631974F6200CFEA60090B765 /* CCSha256.m in Sources */,
+				63CA4A0C202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift in Sources */,
 				631974F9200CFEAF0090B765 /* Data+HexEncodedString.swift in Sources */,
+				633332BD2021454200E3A474 /* Data+Base58Encoding.swift in Sources */,
 				631974F8200CFEAC0090B765 /* HashingAlgorithms.swift in Sources */,
 				631974F7200CFEA90090B765 /* rmd160.c in Sources */,
 			);
@@ -290,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63197509200D04E50090B765 /* CCSha256.m in Sources */,
+				63CA4A0B202423CB00B52AF4 /* FixedWidthInteger+LongDivision.swift in Sources */,
 				6319750D200D04F30090B765 /* Data+HexEncodedString.swift in Sources */,
+				633332BC2021454200E3A474 /* Data+Base58Encoding.swift in Sources */,
 				6319750C200D04F00090B765 /* HashingAlgorithms.swift in Sources */,
 				6319750B200D04EC0090B765 /* rmd160.c in Sources */,
 			);
